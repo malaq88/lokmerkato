@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo do corpo da página */
+    color: #333; /* Cor do texto padrão */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header {
+    background-color: #001f3f; /* Azul Marinho para o cabeçalho */
+    color: #ffcc00; /* Amarelo para o texto no cabeçalho */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.site-header h1 {
+    margin: 0;
+}
+
+.site-header p {
+    margin-top: 5px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px 0;
+    background-color: #fff; /* Fundo branco para a seção principal */
+    border: 1px solid #ddd; /* Borda para destacar a seção principal */
+}
+
+.site-footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #001f3f; /* Azul Marinho para o rodapé */
+    color: #ffcc00; /* Amarelo para o texto no rodapé */
+    margin-top: auto;
+}
